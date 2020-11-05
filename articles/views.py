@@ -9,6 +9,3 @@ def articles_list(request):
     args = {'articles': articles}
     return render(request, 'articles/articleslist.html', args)
 
-
-def articles_detail(request):
-    return render(request, 'articles/articles_detail')
